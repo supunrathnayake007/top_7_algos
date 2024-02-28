@@ -1,3 +1,5 @@
+//https://www.youtube.com/watch?v=kp3fCihUXEg
+//this video inspired me to do this 
 let data1 =[10,5,7,6,1,9,8,3,5,4]
 console.log("Data on hand:"+data1)
 // function insertionSort_I_Wrote(data){
@@ -18,9 +20,10 @@ console.log("Data on hand:"+data1)
 // }
 function mergeSort(data){
     const pair = []
+    let elements :any[] = []; 
     for (let i = 0; i < data.length; i++) {
-        let element = []; 
-        element.push(data[i])
+       const element =data[i] 
+        elements.push(element )
 
         
     }
